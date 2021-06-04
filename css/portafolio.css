@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;    
+    background-color: #111111;
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+@font-face {
+    font-family: "WebSymbolsRegular";
+    src: url(fonts/websymbols-regular-webfont.eot);
+    src: url(fonts/websymbols-regular-webfont.eot?#iefix) format('embedd-opentype'), /*  para que tengan mayor compatibilidad con todos los navegadores  */
+         url(fonts/websymbols-regular-webfont.woff) format('woff'),
+         url(fonts/websymbols-regular-webfont.ttf) format('truetype'),
+         url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format('svg'); /*  para que tengan mayor compatibilidad con todos los navegadores  */
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+.gear {
+    font-family: "WebSymbolsRegular";    
+}
+
+.father {
+    
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 100%;    
+    min-height: 907px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.son {
+    
+    height: 360px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    
+    
+}
+
+.son-01 {
+    flex-basis: 5%;
+    height: 50px;
+    border: 5px solid yellow;
+    
+}
+
+.son-02 {
+    order: -1;
+    justify-content: center;
+    flex-basis: 100%;
+    height: 100px;
+    border: 5px solid purple;
+
+    
+}
+
+.grandchild-02-01 {
+    border: 5px solid red;
+    flex-basis: 100%;
+    height: 05%;
+}
+
+.grandchild-02-02 {
+    border: 5px solid blue;
+    flex-basis: 46%;
+    height: 45%;
+    
+    
+}
+
+.grandchild-02-03 {
+    border: 5px solid green;
+    flex-basis: 45%;
+    height: 45%;
+}
+
+.grandchild-02-04 {
+    border: 5px solid yellow;
+    flex-basis: 100%;
+    height: 10%;
+    align-self: flex-end;
+    
+}
+
+
+.son-03 {
+    flex-basis: 80%;
+    border: 5px solid red;
+    display: flex;   
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    height: auto;
+}
+
+.son-04 {
+    flex-basis: 5%;
+    border: 5px solid blue;
+    margin-right: 25px;
+    display: flex;
+    flex-flow: row wrap; 
+    height: auto;
+    justify-content: space-evenly;    
+
+}
+
+.grandchild-04-00  {
+    flex-basis: 100%;    
+}
+
+.son-05 {
+    order: -1;
+    justify-content: center;
+    flex-basis: 100%;
+    height: 100px;
+    border: 5px solid purple;
+
+}
+
+.son-03 img {
+    border-radius: 10px;
+}
+
+.son-04 a:hover {
+    display: block;
+    background-color: #ffb400;
+}
+
